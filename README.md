@@ -18,10 +18,16 @@ There is custom three button action sheet with Banner image and title name with 
 
 There are custom image as well as webView popup. In which user can able to open any image and web url. 
 
+# Sample
+
+![video](/Media/alert.gif)
+
 # Table of content
 
-- [UI Controls](#ui-controls)
+
 - [Description](#description)
+- [Sample](#sample)
+- [UI Controls](#ui-controls)
 - [Features](#features)
 -	[Usage](#usage)
 - [By Apple](#by-apple)
