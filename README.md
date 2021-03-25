@@ -61,6 +61,14 @@ There are custom image as well as webView popup. In which user can able to open 
 
 # Usage
 
+- Download and run source in your Xcode.
+
+- On action event implement `showCustomAlert()` which give you bunch of different customization option related to alert, whatever you want to customize just pass data in the method. You can also check different customization in the source.
+
+- On action event implement `showThreeActionButtonPicker()` which provides you customization option related to actionsheet, in which you can add custom banner on the top of action sheet, whatever you want to customize just pass data in the method. You can also check different customization in the source.
+
+- For Custom popup, pass data title, image or web url to `ImageAlertVC`. As you can see in source. [(Sample)](#sample)
+
 # By Apple
 
 - Xcode 12
