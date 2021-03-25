@@ -6,7 +6,7 @@
 <a href="#">
 <img src="https://camo.githubusercontent.com/7a1635979240523def7c8b8a7475c21c8892e34656e81578fcee46d23c1d49a2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f706c6174666f726d2d694f532d726564" data-canonical-src="https://img.shields.io/badge/platform-iOS-red" style="max-width:100%;">
 </a>
-<a href="#">
+<a href="https://github.com/ashishpatelmi/GenerateTrendingCustomAlert/LICENSE">
 <img src="https://camo.githubusercontent.com/7b232a0e05a8d73a46bad2e4748afd9e9d0ab04e217b38f03eede63b86da220a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e63652d4d49542e2d6f72616e6765" data-canonical-src="https://img.shields.io/badge/licence-MIT.-orange" style="max-width:100%;">
 </a>
 
