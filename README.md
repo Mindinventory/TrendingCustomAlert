@@ -22,6 +22,12 @@ There are custom image as well as webView popup. In which user can able to open 
 
 ![video](/Media/alert.gif)
 
+<p align="center">
+    <a href="https://www.mindinventory.com" style="pointer-events: stroke;" target="_blank">
+        <img src="/Media/mi.png" width="210" height="70" title="MindInventory">
+    </a>
+</p>
+
 # Table of content
 
 
