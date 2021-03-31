@@ -35,7 +35,7 @@ There are custom image as well as webView popup. In which user can able to open 
 - [Sample](#sample)
 - [UI Controls](#ui-controls)
 - [Features](#features)
--	[Usage](#usage)
+- [Usage](#usage)
 - [By Apple](#by-apple)
 - [License](#license)
 
@@ -71,14 +71,72 @@ There are custom image as well as webView popup. In which user can able to open 
 
 - On action event implement `showCustomAlert()` which give you bunch of different customization option related to alert, whatever you want to customize just pass data in the method. You can also check different customization in the source.
 
+```swift
+showCustomAlert(title: "LogOut",
+                message: "Are you sure you want to LogOut? ",
+                alertType: .twoButton(title1: "No", title2: "Yes"),
+                icon: "user",
+                alertRadius: 70,
+                btnRadius: 25,
+                customCorners: [.layerMinXMinYCorner, .layerMaxXMaxYCorner])
+```
+- Here we have different options for Alert:
+    - title: Custom title.
+    - message: Custom message. 
+    - alertType: We can choose oneButton or towButton alert, also we can apply custom button title and colour.
+    - icon: We can add icon on top of the alert.
+    - alertRadius: It will apply radius on main alertview.
+    - btnRadius: It will apply radius on buttons.
+    - customCorners: We can customize any corner of alertview. It will apply on alertview as well as on buttons.
+
 - On action event implement `showThreeActionButtonPicker()` which provides you customization option related to actionsheet, in which you can add custom banner on the top of action sheet, whatever you want to customize just pass data in the method. You can also check different customization in the source.
 
-- For Custom popup, pass data title, image or web url to `ImageAlertVC`. As you can see in source. [(Sample)](#sample)
+```swift
+showThreeActionButtonPicker(title1: "Help", btnIcon1: "ic_help_circle",
+                            title2: "Info", btnIcon2: "ic_info", btnStyle2: .default,
+                            title3: "Logout", btnIcon3: "ic_logout", btnStyle3: .destructive,
+                            banner: "gender", isShowBanner: true,
+                            isShowCancle: true, controller: self)
+```
+- Here we have different options for Actionsheet:
+    - title: Custom title.
+    - btnIcon: Custom icone for button.
+    - btnStyle: We can give .default, .destructive style for button.
+    - banner: We can add custom banner on actionsheet.
+    - isShowBanner: Hide/Show banner.
+    - isShowCancle: Hide/Show Cancle button.
+    - controller: Need to pass self controller.
+
+- For Custom popup, pass data title, image or web url to `ImageAlertVC`. As you can see in source.
+ 
+- Web popup view: We can pass name and webUrl in the url, it will load in a popup view.
+  
+```Swift
+if let popupViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ImageAlertVC") as? ImageAlertVC {
+            
+    popupViewController.name = "Terms & Conditions"
+    popupViewController.url = URL(string: "https://www.apple.com")
+    self.present(popupViewController, animated: true)
+}
+
+```
+
+- Image popup view: We can pass name and image in the imageName, it will load in a popup view.
+
+```Swift
+if let popupViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ImageAlertVC") as? ImageAlertVC {
+            
+    popupViewController.name = "Burj Al Arab"
+    popupViewController.imageName = "burj _al_arab"
+    self.present(popupViewController, animated: true)
+}
+
+```
 
 # By Apple
 
 - Xcode 12
--	iOS 11+
+- iOS 11+
 
 # LICENSE!
 
