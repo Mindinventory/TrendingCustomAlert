@@ -1,4 +1,4 @@
-# TrendingCustomAlert ✓
+# Trending Custom Alert: You can use a custom trending alert for more better app UI. Very easy to use. ✓
 
 <a href="https://docs.swift.org/swift-book/" rel="nofollow">
 <img src="https://camo.githubusercontent.com/cb475f8dadad0c4288af40474eb0e17f948ef16d0b0ccedcd488e3f495467943/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f73776966742d352e302d79656c6c6f77677265656e" data-canonical-src="https://img.shields.io/badge/swift-5.0-yellowgreen" style="max-width:100%;">
